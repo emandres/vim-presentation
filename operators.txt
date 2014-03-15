@@ -1,0 +1,35 @@
+Now that you've got some movements under your belt, let's make them useful.
+
+		A. Delete the last word on this line quack.
+
+1. Operators need a motion to act on. Move your cursor to the word "quack" on line A. (There's a quick way to get to that word - can you guess it?)
+
+    B. I don't like this line. Just delete it.
+
+    * Note that you can undo any of your changes with `u`. You can redo with <C-R>.
+
+2. When you type an operator twice, it will typically work on the entire line. Move your cursor to line B and type `dd`.
+
+3. So, now that you know how to delete text, there's something else you should know about `d`. It copies the text, so more accurately, it's a "cut" command as we think about it in most programs. Press `p` to paste your most recent deletion. 
+
+4. What happens if you press `P`?
+
+5. If you want to copy without removing the text you use `y`. Try it with a couple of different motions that you already know, and then paste using `p` to prove to yourself that it works.
+
+6. Remember the trick of doubling an operator to make it work on a line? Try that with `y`
+
+7. Okay, so we have cut, copy, and paste. Try out `c` and see what it does.
+
+    * `c` will delete the text you gave it, but it places you in Insert mode. Pretty spiffy, eh?
+
+8. Place your cursor over a character and see what `x` does.
+
+9. How about `s`? Notice that `s` and `x` both only operate on a single character.
+
+    * `s` is to `x` as `c` is to `d`. That is `s` and `c` place you in Insert mode so you can replace what you just deleted. 
+
+10. Try using `rx` over another character. It replaced that character with. 
+
+11. What does `R` do? Press escape after you figure it out to go back to Normal mode. 
+
+12. `gu`, `gU` and `~` all change the case of text. Which one does which?

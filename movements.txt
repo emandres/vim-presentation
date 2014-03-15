@@ -1,0 +1,32 @@
+Movement
+========
+
+1. Press `j` to move your cursor down a couple lines.
+2. Press 'k' to move it back.
+3. Press 'l' a couple of times to move it to the right.
+4. Press 'h' to move it back.
+
+    A. Great, now you know the most basic movements in Vim. Note that the arrow keys will work as well, but to get fast at Vim you'll want to practice using hjkl instead.
+
+5. Move your cursor to the beginning of sentence A.
+6. Press `w`. Notice that it takes you to the beginning of the next word.
+
+    B. (WORDS) aren't the same as words. WORDS are any contiguous sequence of non-whitespace characters
+
+7. Move your cursor to the beginning of sentence B.
+8. Press `W` a few times. How does it differ from lower case `w`?
+9. Now try `b` and `B`. This moves you back a word/WORD.
+10. What do `e` and `E` do? They move you to the end of the word.
+11. How about `ge` and `gE`? They move you backward to the end of a word/WORD.
+
+    C. There's an extra word in zebra this sentence. How quickly can you get to it?
+	
+12. Type `f` followed by another character. This moves you forward to the closest instance of the character on the line. `F` moves you back.
+13. Try doing the same with `t` and `T`. Notice the difference in where the cursor lands.
+14. Try hitting `;` after using `f` or `t` to find a letter. It moves you to the next instance.
+15. Pressing ',' will move you to the previous instance. (If it doesn't work try '\')
+
+16. Now try out 'gg'. It moves you to the first line of the file.
+17. What does 'G' do?
+18. What does '4G' do?
+
